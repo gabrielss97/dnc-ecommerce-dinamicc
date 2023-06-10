@@ -1,0 +1,23 @@
+.Card {
+  width: 330px;
+  height: 337px;
+  border-radius: 8px;
+  border: 1px solid #b7b7b7;
+  overflow: hidden;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    button {
+      border: 1px solid #0000004d;
+      background-color: #0c70f2;
+      color: white;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+}
